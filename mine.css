@@ -1,0 +1,568 @@
+.component-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home {
+    height: 26.43%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .home:not(:last-of-type) {
+    margin-bottom: 32px;
+  }
+  .heder {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      linear-gradient(
+        rgba(69, 75, 81, 1),
+        rgba(69, 75, 81, 1)
+      ),
+      rgba(202, 201, 201, 1);
+    margin-bottom: 38px;
+    padding: 32px 114px 32px 87px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .screenshot-2023-03-08-at-18-00-18-logo-m {
+    width: 298px;
+    height: 127px;
+    margin-right: 240px;
+    border-radius: 40px;
+  }
+  .frame-1 {
+    margin-top: 49px;
+    margin-right: 86px;
+    padding: 20px 67px 20px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .golovna {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+  }
+  .golovna:not(:last-of-type) {
+    margin-right: 40px;
+  }
+  .bibasket {
+    margin-top: 57px;
+    padding: 2.5px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .vector {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+  }
+  .flex-wrapper-one {
+    margin-bottom: 28px;
+    padding: 0 0 0 43px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .relative-wrapper-one {
+    margin-top: 43px;
+    margin-right: 62px;
+    position: relative;
+  }
+  .nejmovirni-smaki-u-kozhnij-krapli-ta-kovt {
+    height: 302px;
+    width: 520px;
+    font-family: "Inter";
+    font-size: 46px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
+  .lasuni-ta-esteti-vitaemo-u-nashomu-magaz {
+    height: 176px;
+    width: 523px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    position: absolute;
+    left: -10px;
+    bottom: -149px;
+  }
+  .izobrazhenie-1 {
+    width: 740px;
+    height: 690px;
+    border-radius: 100px;
+  }
+  .futer {
+    background: linear-gradient(
+        rgba(41, 49, 54, 1),
+        rgba(41, 49, 54, 1)
+      ),
+      rgba(202, 201, 201, 1);
+    padding: 13px 144px 14px 76px;
+    display: flex;
+    align-items: center;
+  }
+  .bk0853-net {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    margin-right: 292px;
+  }
+  .num-3-80-97-123-4567 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    margin-right: 294px;
+  }
+  .frame-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .instagram {
+    margin-right: 40px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+  }
+  .facebook {
+    margin-right: 40px;
+    padding: 4px 4px 3.99px;
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 42.01px;
+  }
+  .telegram-app {
+    padding: 5.98px 3.03px 4.03px 3px;
+    display: flex;
+    align-items: center;
+    width: 43.97px;
+    height: 39.99px;
+  }
+  .vector-two {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+  }
+  .num-2 {
+    height: 45.16%;
+    background-color: var(--white);
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .heder-two {
+    background: linear-gradient(
+        rgba(55, 60, 65, 1),
+        rgba(55, 60, 65, 1)
+      ),
+      rgba(202, 201, 201, 1);
+    margin-bottom: 42px;
+    padding: 26px 114px 38px 74px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .screenshot-2023-03-08-at-18-00-18-logo-m-two {
+    width: 298px;
+    height: 127px;
+    margin-right: 259px;
+    border-radius: 40px;
+  }
+  .frame-1-two {
+    margin-top: 50px;
+    margin-right: 80px;
+    padding: 20px 67px 20px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .bibasket-two {
+    margin-top: 63px;
+    padding: 2.5px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-wrapper-five {
+    margin-bottom: 40.45px;
+    padding: 0 0 0 74px;
+    display: flex;
+    align-items: center;
+  }
+  .relative-wrapper-four {
+    margin-right: 27px;
+    position: relative;
+  }
+  .group-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: -3px;
+    bottom: 0;
+  }
+  .group-1 {
+    width: 408px;
+    height: 433.55px;
+    background-color: var(--gainsboro);
+    margin-bottom: 20px;
+    border: 1px solid var(--black);
+  }
+  .v-najavnosti-e-ridkisni-sorti-taki-jak-asa {
+    height: 137px;
+    width: 415px;
+    display: flex;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+  }
+  .v-najavnosti-e-ridkisni-sorti-taki-jak-asa-emphasis-0 {
+    font-family: "Inter";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+  }
+  .group-2 {
+    background-color: var(--gainsboro);
+    padding: 10px 11px 10px 13px;
+    display: flex;
+    align-items: center;
+  }
+  .chornij-chaj {
+    height: 66px;
+    width: 278px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .group-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  .black-tea-this-tea-is-fully-oxidized-for {
+    width: 412px;
+    height: 439px;
+    margin-bottom: 17.65px;
+  }
+  .bilij-chaj-mao-fen-drakoniv-perlina-cha {
+    height: 116.66px;
+    width: 415px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    margin-bottom: 19.94px;
+    margin-left: 439px;
+  }
+  .group-2-two {
+    background-color: var(--gainsboro);
+    margin-left: 496px;
+    padding: 12.75px 26px 10px 17px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .zelenij-fruktovij-ta-travjani-chai {
+    height: 63px;
+    width: 259px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .chaj-dobrye-sny-1 {
+    width: 417px;
+    height: 436px;
+    position: absolute;
+    right: -3px;
+    top: 0;
+  }
+  .flex-wrapper-seven {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .o-da-eda-1 {
+    width: 408px;
+    height: 436px;
+    margin-bottom: 22px;
+  }
+  .japons-kij-zelenij-chaj-jakij-melet-sja-do {
+    height: 117px;
+    width: 415px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .group-2-three {
+    background-color: var(--gainsboro);
+    padding: 22px 64px;
+    display: flex;
+    align-items: center;
+  }
+  .matcha {
+    height: 42px;
+    width: 174px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .flex-wrapper-six {
+    margin-bottom: 38px;
+    padding: 0 0 1.55px 69px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .group-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .group-2-four {
+    background-color: var(--gainsboro);
+    padding: 11px 47px 33px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .arabika {
+    height: 42px;
+    width: 208px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .steaming-coffee-hd-transparent-steam-co {
+    width: 418px;
+    height: 438px;
+    position: absolute;
+    left: -3px;
+    top: -2.45px;
+  }
+  .flex-wrapper-eight {
+    margin-right: 27px;
+    padding: 1.55px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .prochitajte-glavnoe-o-zernovom-i-molotom {
+    width: 412px;
+    height: 432px;
+    margin-bottom: 22px;
+  }
+  .group-2-five {
+    background-color: var(--gainsboro);
+    padding: 22px 50px 22px 46px;
+    display: flex;
+    align-items: center;
+  }
+  .robusta {
+    height: 42px;
+    width: 206px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .flex-wrapper-nine {
+    padding: 1.55px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .espresso-1 {
+    width: 410px;
+    height: 436px;
+    margin-bottom: 20px;
+  }
+  .group-2-six {
+    background-color: var(--gainsboro);
+    padding: 22px 48px 22px 47px;
+    display: flex;
+    align-items: center;
+  }
+  .espreso {
+    height: 42px;
+    width: 207px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+  }
+  .futer-two {
+    background: linear-gradient(
+        rgba(41, 49, 54, 1),
+        rgba(41, 49, 54, 1)
+      ),
+      rgba(202, 201, 201, 1);
+    padding: 13px 144px 14px 76px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+  }
+  .heder-three {
+    background: linear-gradient(
+        rgba(55, 60, 65, 1),
+        rgba(55, 60, 65, 1)
+      ),
+      rgba(202, 201, 201, 1);
+    margin-bottom: 40px;
+    padding: 40px 114px 24px 74px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .relative-wrapper-two {
+    margin-right: 253px;
+    position: relative;
+  }
+  .rectangle-1 {
+    width: 295px;
+    height: 122px;
+    position: absolute;
+    left: 1px;
+    top: -12px;
+  }
+  .screenshot-2023-03-08-at-18-00-18-logo-m-three {
+    width: 298px;
+    height: 127px;
+    position: relative;
+    border-radius: 40px;
+  }
+  .frame-1-three {
+    margin-top: 41px;
+    margin-right: 86px;
+    padding: 20px 67px 20px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .bibasket-three {
+    margin-top: 49px;
+    padding: 2.5px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-wrapper-two {
+    margin-bottom: 66px;
+    padding: 0 0 0 74px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-wrapper-three {
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .chaj-1 {
+    width: 625px;
+    height: 431px;
+    margin-bottom: 40px;
+  }
+  .flex-wrapper-four {
+    display: flex;
+    align-items: flex-start;
+  }
+  .izobrazhenie-3 {
+    width: 193px;
+    height: 178px;
+    margin-right: 26px;
+  }
+  .num-10-tea-drinks-that-can-help-you-lose-wei {
+    width: 192px;
+    height: 174px;
+    margin-top: 1px;
+    margin-right: 30px;
+  }
+  .izobrazhenie-2 {
+    width: 192px;
+    height: 177px;
+    margin-top: 2px;
+  }
+  .relative-wrapper-three {
+    margin-top: 196px;
+    position: relative;
+  }
+  .chornij-chaj-two {
+    height: 302px;
+    width: 520px;
+    font-family: "Inter";
+    font-size: 46px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    position: absolute;
+    right: 49px;
+    top: -135px;
+  }
+  .chornij-chaj-ce-vid-chaju-jakij-otrimuet-s {
+    height: 406px;
+    width: 630px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
