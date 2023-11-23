@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Богдан Ковтун</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EEF141;
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header {
+            text-align: left;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        h1, p {
+            margin-bottom: 10px;
+        }
+
+        .title-info {
+            margin-left: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .experience, .education, .achievements {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .experience {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .education {
+            font-style: italic;
+        }
+
+        .achievements {
+            margin-top: 20px;
+        }
+
+        .photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .photo + .title-info {
+            margin-left: 20px;
+        }
+
+        .photo + .title-info + h1 + p {
+            margin-top: -10px;
+            margin-left: 0;
+        }
+
+        .achievements-text {
+            margin-bottom: 20px;
+        }
+
+        .right-section {
+            flex: 1;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Додайте фотографію та ім'я тут -->
+        <img src="https://alldaily.ru/wp-content/uploads/2022/06/336241906.jpg" alt="Фото" class="photo">
+        <div class="title-info">
+            <h1>Богдан Ковтун</h1>
+            <p>Senior Cyber Security</p>
+        </div>
+    </header>
+
+    <section class="right-section">
+        <h2>Контактна інформація</h2>
+        <ul>
+            <li>Телефон: 0978996756, 0669779673</li>
+            <li>Електронна пошта: memedog@gmail.com</li>
+        </ul>
+
+        <h2>Технічні навички</h2>
+        <ul>
+            <li>Програмування на Java, Python, С++</li>
+            <li>Аналіз та оптимізація алгоритмів</li>
+            <li>Бази даних: MySQL, PostgreSQL, MongoDB. SQL</li>
+            <li>Веб-розробка: Django, Flask, HTML, CSS, JavaScript</li>
+            <li>Автоматизація: Jenkins</li>
+            <li>Тестування: Selenium, JUnit</li>
+            <li>Системи контролю версій: Git</li>
+            <li>Операційні системи: Windows, Linux</li>
+        </ul>
+    </section>
+
+    <section class="right-section">
+        <h2>Досвід роботи</h2>
+        <div class="experience">
+            <p>Senior Software Engineer, InnovateTech Solutions, Inc.</p>
+            <p>Січень 2018 - Теперішній час</p>
+            <ul>
+                <li>Відповідальний за розробку та оптимізацію серверної частини великого масштабу електронної комерції.</li>
+                <li>Впровадження архітектурних змін, що призвели до збільшення продуктивності на 40%.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <p>Software Development Team Lead, Visionary Innovations Ltd.</p>
+            <p>Липень 2015 - Грудень 2017</p>
+            <ul>
+                <li>Керівництво розробкою та впровадженням інноваційного внутрішнього інструменту для керування проектами, що призвело до зменшення часу виконання завдань на 25%.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <p>Junior Software Developer, CodeCrafters Studio</p>
+            <p>Квітень 2014 - Липень 2015</p>
+            <ul>
+                <li>Успішна розробка та впровадження проекту управління складами: Впровадження системи, що забезпечила зменшення часу обробки замовлень на 30%.</li>
+                <li>Премія за інновації в програмуванні: Визнання за внесок у впровадження новаторських рішень у розробці програмного забезпечення.</li>
+                <li>Ефективне співпрацювання в команді: Успішна робота в команді над проектами, що призвела до вдосконалення комунікації та досягнення спільних цілей.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="right-section">
+        <h2>Освіта</h2>
+        <div class="education">
+            <p>Магістр інформаційних технологій</p>
+            <p>Університет ІТ Еліт, Місто Прогресу</p>
+            <p>Вересень 2016 - Липень 2018</p>
+        </div>
+
+        <h2>Досягнення</h2>
+        <div class="achievements">
+            <ul class="achievements-text">
+                <li>Успішна розробка та впровадження проекту управління складами: Впровадження системи, що забезпечила зменшення часу обробки замовлень на 30%.</li>
+                <li>Премія за інновації в програмуванні: Визнання за внесок у впровадження новаторських рішень у розробці програмного забезпечення.</li>
+                <li>Ефективне співпрацювання в команді: Успішна робота в команді над проектами, що призвела до вдосконалення комунікації та досягнення спільних цілей.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
